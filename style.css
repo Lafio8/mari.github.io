@@ -1,16 +1,21 @@
+html{
+	height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    margin: 0;
+    height: 100%;
+	background: url('mrn.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
 }
 
 .container {
     text-align: center;
-    background: white;
+    background: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,7 +24,7 @@ body {
 input, button {
     margin: 10px 0;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #result {
